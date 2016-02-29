@@ -1,0 +1,188 @@
+2016/02/25 04:52:54 [emerg] 28692#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2016/02/25 04:52:54 [emerg] 28692#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2016/02/25 04:52:54 [emerg] 28692#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2016/02/25 04:52:54 [emerg] 28692#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2016/02/25 04:52:54 [emerg] 28692#0: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2016/02/25 04:52:54 [emerg] 28692#0: still could not bind()
+2016/02/25 05:58:19 [emerg] 29007#0: unexpected "}" in /root/lzy/work/conf/nginx.conf:17
+2016/02/25 06:01:11 [notice] 29078#0: signal process started
+2016/02/25 06:01:24 [error] 29079#0: *3 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:02:15 [error] 29079#0: *4 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:02:24 [notice] 29090#0: signal process started
+2016/02/25 06:02:28 [error] 29091#0: *5 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:02:34 [error] 29091#0: *6 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test/ HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:03:10 [error] 29091#0: *7 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test/ HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:04:14 [error] 29140#0: *2 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:04:16 [error] 29140#0: *3 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test/ HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:04:20 [error] 29140#0: *4 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test/ HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:05:28 [error] 29140#0: *5 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:05:36 [notice] 29182#0: signal process started
+2016/02/25 06:05:39 [error] 29183#0: *6 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:06:42 [notice] 29213#0: signal process started
+2016/02/25 06:06:53 [error] 29214#0: *9 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:15:41 [emerg] 29242#0: "lua_package_path" directive is not allowed here in /root/lzy/work/conf/nginx.conf:7
+2016/02/25 06:18:17 [notice] 29247#0: signal process started
+2016/02/25 06:18:21 [error] 29248#0: *10 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:18:24 [error] 29248#0: *11 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:18:28 [notice] 29253#0: signal process started
+2016/02/25 06:18:32 [error] 29254#0: *12 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:19:00 [emerg] 29262#0: "lua_package_path" directive is not allowed here in /root/lzy/work/conf/nginx.conf:2
+2016/02/25 06:20:07 [emerg] 29271#0: "lua_package_path" directive is not allowed here in /root/lzy/work/conf/nginx.conf:24
+2016/02/25 06:20:56 [emerg] 29281#0: "lua_package_path" directive is not allowed here in /root/lzy/work/conf/nginx.conf:24
+2016/02/25 06:21:37 [error] 29287#0: *2 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:21:40 [error] 29287#0: *3 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:27:32 [notice] 29349#0: signal process started
+2016/02/25 06:27:40 [error] 29350#0: *4 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:27:44 [error] 29350#0: *5 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:31:00 [error] 29417#0: *1 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:31:27 [error] 29417#0: *2 failed to load external Lua file "/root/lzy/work/bin/test.lua": cannot open /root/lzy/work/bin/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:34:34 [notice] 29603#0: signal process started
+2016/02/25 06:34:55 [error] 29604#0: *4 failed to load external Lua file "/root/lzy/work/lua/test.lua": cannot open /root/lzy/work/lua/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:35:22 [error] 29604#0: *6 failed to load external Lua file "/root/lzy/work/lua/test.lua": cannot open /root/lzy/work/lua/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 06:36:17 [notice] 29677#0: signal process started
+2016/02/25 06:36:20 [error] 29678#0: *7 failed to load external Lua file "/root/lzy/work/lua/test.lua": cannot open /root/lzy/work/lua/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:14:12 [error] 29678#0: *8 failed to load external Lua file "/root/lzy/work/lua/test.lua": cannot open /root/lzy/work/lua/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:15:16 [error] 29678#0: *10 failed to load external Lua file "/root/lzy/work/lua/test.lua": cannot open /root/lzy/work/lua/test.lua: Permission denied, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:16:20 [notice] 29911#0: signal process started
+2016/02/25 07:18:07 [notice] 29984#0: signal process started
+2016/02/25 07:18:11 [notice] 29986#0: signal process started
+2016/02/25 07:18:56 [notice] 30001#0: signal process started
+2016/02/25 07:19:39 [notice] 30006#0: signal process started
+2016/02/25 07:29:15 [notice] 30062#0: signal process started
+2016/02/25 07:38:06 [notice] 30115#0: signal process started
+2016/02/25 07:38:11 [error] 30116#0: *31 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:38:24 [error] 30116#0: *32 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:38:39 [notice] 30122#0: signal process started
+2016/02/25 07:38:41 [error] 30123#0: *33 failed to load external Lua file "/root/lzy/work/lua/test.lua": /root/lzy/work/lua/test.lua:3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:38:54 [error] 30123#0: *34 failed to load external Lua file "/root/lzy/work/lua/test.lua": /root/lzy/work/lua/test.lua:3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:39:01 [error] 30123#0: *36 failed to load external Lua file "/root/lzy/work/lua/test.lua": /root/lzy/work/lua/test.lua:3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:39:06 [error] 30123#0: *37 failed to load external Lua file "/root/lzy/work/lua/test.lua": /root/lzy/work/lua/test.lua:3: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "localhost:8080"
+2016/02/25 07:39:24 [notice] 30163#0: signal process started
+2016/02/25 21:56:11 [notice] 32111#0: signal process started
+2016/02/25 22:04:49 [notice] 32159#0: signal process started
+2016/02/25 22:08:34 [notice] 32189#0: signal process started
+2016/02/28 21:34:26 [error] 32190#0: *908 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/28 21:34:46 [error] 32190#0: *909 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/28 21:34:49 [error] 32190#0: *910 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/28 21:42:20 [error] 32190#0: *911 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/28 21:47:14 [error] 32190#0: *912 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/28 21:47:37 [error] 32190#0: *913 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/28 21:50:42 [notice] 28025#0: signal process started
+2016/02/28 21:50:45 [error] 28026#0: *914 lua entry thread aborted: runtime error: /root/lzy/work/lua/test.lua:3: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/lzy/work/lua/test.lua:3: in function </root/lzy/work/lua/test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar HTTP/1.1", host: "localhost:8080"
+2016/02/28 21:56:35 [notice] 28039#0: signal process started
+2016/02/28 22:09:16 [notice] 28197#0: signal process started
+2016/02/29 01:33:14 [notice] 28813#0: signal process started
+2016/02/29 02:54:09 [emerg] 29045#0: "content_by_lua_file" directive is duplicate in /root/lzy/work/conf/nginx.conf:23
+2016/02/29 02:54:37 [notice] 29047#0: signal process started
+2016/02/29 02:54:39 [notice] 29049#0: signal process started
+2016/02/29 02:55:10 [error] 29050#0: *932 lua entry thread aborted: runtime error: /root/lzy/work/lua/redis_test.lua:1: module 'resty.redis_iresty' not found:
+	no field package.preload['resty.redis_iresty']
+	no file '/usr/local/openresty/lualib/resty/redis_iresty.lua'
+	no file '/usr/local/openresty/lualib/resty/redis_iresty/init.lua'
+	no file './resty/redis_iresty.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta1/resty/redis_iresty.lua'
+	no file '/usr/local/share/lua/5.1/resty/redis_iresty.lua'
+	no file '/usr/local/share/lua/5.1/resty/redis_iresty/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/redis_iresty.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/redis_iresty/init.lua'
+	no file '/usr/local/openresty/lualib/resty/redis_iresty.so'
+	no file './resty/redis_iresty.so'
+	no file '/usr/local/lib/lua/5.1/resty/redis_iresty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/redis_iresty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/root/lzy/work/lua/redis_test.lua:1: in function </root/lzy/work/lua/redis_test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar&bar=baz&bar=blah HTTP/1.1", host: "localhost:8080"
+2016/02/29 03:19:25 [notice] 29233#0: signal process started
+2016/02/29 03:20:42 [notice] 29248#0: signal process started
+2016/02/29 04:02:50 [notice] 29615#0: signal process started
+2016/02/29 04:10:29 [notice] 29708#0: signal process started
+2016/02/29 04:13:36 [notice] 29788#0: signal process started
+2016/02/29 04:13:38 [error] 29789#0: *944 lua entry thread aborted: runtime error: /root/lzy/work/lua/mysql_test.lua:32: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/root/lzy/work/lua/mysql_test.lua:32: in function </root/lzy/work/lua/mysql_test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar&bar=baz&bar=blah HTTP/1.1", host: "localhost:8080"
+2016/02/29 04:28:51 [notice] 7204#0: signal process started
+2016/02/29 04:31:13 [notice] 7219#0: signal process started
+2016/02/29 04:31:45 [notice] 7224#0: signal process started
+2016/02/29 04:31:47 [error] 7225#0: *950 failed to load external Lua file "/root/lzy/work/lua/mysql_test.lua": /root/lzy/work/lua/mysql_test.lua:32: ')' expected near ']', client: 127.0.0.1, server: , request: "GET /lua?foo=bar&bar=baz&bar=blah HTTP/1.1", host: "localhost:8080"
+2016/02/29 04:32:16 [notice] 7231#0: signal process started
+2016/02/29 04:33:18 [notice] 7237#0: signal process started
+2016/02/29 04:38:18 [notice] 7251#0: signal process started
+2016/02/29 04:39:11 [notice] 7258#0: signal process started
+2016/02/29 04:41:46 [notice] 7284#0: signal process started
+2016/02/29 04:42:39 [notice] 7316#0: signal process started
+2016/02/29 04:43:15 [notice] 7322#0: signal process started
+2016/02/29 04:43:36 [notice] 7327#0: signal process started
+2016/02/29 04:45:01 [notice] 7350#0: signal process started
+2016/02/29 04:45:03 [error] 7351#0: *967 lua entry thread aborted: runtime error: /root/lzy/work/lua/mysql_test.lua:35: bad argument #1 to 'pairs' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'pairs'
+	/root/lzy/work/lua/mysql_test.lua:35: in function </root/lzy/work/lua/mysql_test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar&bar=baz&bar=blah HTTP/1.1", host: "localhost:8080"
+2016/02/29 04:45:33 [notice] 7357#0: signal process started
+2016/02/29 04:45:34 [error] 7358#0: *969 lua entry thread aborted: runtime error: /root/lzy/work/lua/mysql_test.lua:35: bad argument #1 to 'ipairs' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'ipairs'
+	/root/lzy/work/lua/mysql_test.lua:35: in function </root/lzy/work/lua/mysql_test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar&bar=baz&bar=blah HTTP/1.1", host: "localhost:8080"
+2016/02/29 04:46:01 [notice] 7362#0: signal process started
+2016/02/29 04:49:51 [notice] 7419#0: signal process started
+2016/02/29 04:51:34 [notice] 7433#0: signal process started
+2016/02/29 04:52:16 [notice] 7439#0: signal process started
+2016/02/29 04:53:06 [notice] 7445#0: signal process started
+2016/02/29 04:58:41 [notice] 7468#0: signal process started
+2016/02/29 04:59:11 [notice] 7486#0: signal process started
+2016/02/29 04:59:13 [error] 7487#0: *983 lua entry thread aborted: runtime error: /root/lzy/work/lua/mysql_test.lua:32: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/lzy/work/lua/mysql_test.lua: in function </root/lzy/work/lua/mysql_test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar&bar=baz&bar=blah HTTP/1.1", host: "localhost:8080"
+2016/02/29 04:59:42 [notice] 7504#0: signal process started
+2016/02/29 04:59:43 [error] 7505#0: *985 lua entry thread aborted: runtime error: /root/lzy/work/lua/mysql_test.lua:34: attempt to index a nil value
+stack traceback:
+coroutine 0:
+	/root/lzy/work/lua/mysql_test.lua: in function </root/lzy/work/lua/mysql_test.lua:1>, client: 127.0.0.1, server: , request: "GET /lua?foo=bar&bar=baz&bar=blah HTTP/1.1", host: "localhost:8080"
+2016/02/29 05:00:22 [notice] 7529#0: signal process started
